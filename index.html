@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify  - Your Favourite Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li class="search">
+                <input type="text", name="search", id="search">
+                <label class="icon">    
+                    <span class="fas fa-search"></span>
+                </label>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">            
+            <h1>Best Of DK's Playlists - Feel The Music</h1>
+            <div class="songItemContainer"></div>
+            <div>
+                <div class="songItem">
+                    <img src="1.jpg" alt="1" >
+                    <span class="songName">Aa To Sahi</span>
+                    <span class="songlistplay"><span class="">03:41 <i id='0'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="2.jpg" alt="1" >
+                    <span class="songName">Aao Kbhi Haveli Pai</span>
+                    <span class="songlistplay"><span class="">02:53 <i id='1'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="3.jpg" alt="1" >
+                    <span class="songName">Bandook Meri Laila</span>
+                    <span class="songlistplay"><span class="">03:34 <i id='2'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="4.jpg" alt="1" >
+                    <span class="songName">Binte Dil</span>
+                    <span class="songlistplay"><span class="">03:12 <i id='3'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="5.jpg" alt="1" >
+                    <span class="songName">Bol Na Halke Halke</span>
+                    <span class="songlistplay"><span class="">05:07 <i id='4'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="6.jpg" alt="1" >
+                    <span class="songName">Bom Diggy Diggy</span>
+                    <span class="songlistplay"><span class="">03:22 <i id='5'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="7.jpg" alt="1" >
+                    <span class="songName">Chura Ke Dil Mera</span>
+                    <span class="songlistplay"><span class="">07:32 <i id='6'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="8.jpg" alt="1" >
+                    <span class="songName">Ik Mulakat</span>
+                    <span class="songlistplay"><span class="">04:09 <i id='7'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="9.jpg" alt="1" >
+                    <span class="songName">Jaan Nisaar</span>
+                    <span class="songlistplay"><span class="">03:58 <i id='8'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+                <div class="songItem">
+                    <img src="10.jpg" alt="1" >
+                    <span class="songName">Qaafirana</span>
+                    <span class="songlistplay"><span class="">05:41 <i id='9'class="fas songItemPlay fa-play-circle"></i></span> </i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value ="0" max="100">
+            <div class="icons">
+                    <!-- fontawesome icons -->
+                    <i class="fas fa-2x fa-step-backward" id="previous"></i>
+                    <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-2x fa-step-forward" id="next"></i>
+                </div>
+                    <div class="songInfo">
+                        <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"> Aa To Sahi </span>                    </div>
+        </div>
+    <script src="https://kit.fontawesome.com/af6e7a95f9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
